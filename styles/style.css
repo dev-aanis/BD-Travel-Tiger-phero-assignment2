@@ -124,6 +124,7 @@ body{
 /*Header section style end here*/
 
 /*Main section style start here*/
+/*popular tours section style start here*/
 .popular-tours{
     display: flex;
     width: 100%;
@@ -159,8 +160,113 @@ body{
     font-weight: 800;
     border: 0;
 }
-/*popular tours section style start here*/
 /*popular tours section style end here*/
+
+/*Choose Destination Section style start here*/
+.your-destination{
+    width: 100%;
+    max-width: 1170px;
+    margin: 0 auto 100px auto;
+}
+.destination-title{
+    color: #131318;
+    text-align: center;
+    font-family: Mulish;
+    font-size: 40px;
+    font-style: normal;
+    font-weight: 800;
+    margin-bottom: 24px;
+}
+.destination-description{
+    width: 640px;
+    color: rgba(19, 19, 24, 0.70);
+    font-family: Mulish;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px; /* 162.5% */
+    margin: 0 auto;
+    margin-bottom: 40px;
+}
+.container{
+    position: relative;
+}
+.maldives{
+    position: absolute;
+    color: #FFF;
+    font-size: 28px;
+    font-family: Mulish;
+    font-weight: 800;
+    top: 50%;
+    left: 25%;
+    transform: translate(-50%, -50%);
+}
+.indonesia{
+    position: absolute;
+    color: #FFF;
+    font-size: 28px;
+    font-family: Mulish;
+    font-weight: 800;
+    top: 50%;
+    left: 75%;
+    transform: translate(-50%, -50%);
+}
+.srilanka{
+    position: absolute;
+    color: #FFF;
+    font-size: 28px;
+    font-family: Mulish;
+    font-weight: 800;
+    top: 50%;
+    left: 16%;
+    transform: translate(-50%, -50%);
+}
+.northamerica{
+    position: absolute;
+    color: #FFF;
+    font-size: 28px;
+    font-family: Mulish;
+    font-weight: 800;
+    top: 50%;
+    left: 54%;
+    transform: translate(-50%, -50%);
+}
+.kashmir{
+    position: absolute;
+    color: #FFF;
+    font-size: 28px;
+    font-family: Mulish;
+    font-weight: 800;
+    top: 50%;
+    left: 88.5%;
+    transform: translate(-50%, -50%);
+}
+.bangladesh{
+    position: absolute;
+    color: #FFF;
+    font-size: 28px;
+    font-family: Mulish;
+    font-weight: 800;
+    top: 50%;
+    left: 20%;
+    transform: translate(-50%, -50%);
+}
+.bandarban{
+    position: absolute;
+    color: #FFF;
+    font-size: 28px;
+    font-family: Mulish;
+    font-weight: 800;
+    top: 50%;
+    left: 71%;
+    transform: translate(-50%, -50%);
+}
+.three-image, .two-image, .two-image-again{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+/*Choose Destination Section style end here*/
 /*Main section style end here*/
 
 /*Footer section style start here*/

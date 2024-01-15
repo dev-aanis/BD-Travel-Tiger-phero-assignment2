@@ -64,4 +64,47 @@
         width: 100%;
     }
     /*popular part end*/
+
+    /*destination part*/
+    .your-destination{
+        margin: 0 20px;
+    }
+    .destination-description{
+        width: 350px;
+        text-align: center;
+    }
+    .three-image, .two-image, .two-image-again{
+        flex-direction: column;
+        width: 100%;
+        gap: 20px;
+    }
+    .maldives{
+        top: 25%;
+        left: 50%;
+    }
+    .indonesia{
+        top: 75%;
+        left: 50%;
+    }
+    .srilanka{
+        top: 15%;
+        left: 50%;
+    }
+    .northamerica{
+        top: 44%;
+        left: 50%;
+    }
+    .kashmir{
+        top: 80%;
+        left: 50%;
+    }
+    .bangladesh{
+        top: 28%;
+        left: 50%;
+    }
+    .bandarban{
+        top: 79%;
+        left: 49%;
+    }
+    /*destination part*/
 }
