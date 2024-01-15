@@ -1,0 +1,130 @@
+/*Mulish font from google font*/
+@import url('https://fonts.googleapis.com/css2?family=Mulish:wght@400;500;600;700;800&display=swap');
+/*Mulish font from google font*/
+body{
+    font-family: 'Mulish', sans-serif;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/*Header section style start here*/
+/*Navbar style start here*/
+.nav-container{
+    width: 100%;
+    max-width: 1170px;
+    margin: 50px auto 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.left-part{
+    display: flex;
+    align-items: center;
+    gap: 16px;
+}
+.left-part h4{
+    color: #131318;
+    font-family: Mulish;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 800;
+    
+}
+.right-part{
+    display: flex;
+    justify-content: space-between;
+}
+.right-part a{
+    text-decoration: none;
+    margin-left: 40px;
+
+    color: var(--Dark-02, #424247);
+    text-align: center;
+    font-family: Mulish;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+}
+/*Navbar style end here*/
+
+/*Banner container style start here*/
+.banner-container{
+    width: 100%;
+    max-width: 1170px;
+    height: 500px;
+    border-radius: 16px;
+    margin: 60px auto 100px auto;
+    background-image: url(../Images/banner-images.png);
+    /* background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center; */
+    justify-content: center;
+}
+.dropdown-container{
+    display: inline-flex;
+    gap: 24px;
+    background-color: rgba(252, 252, 252, 0.4);
+    padding: 20px;
+    border-radius: 8px;
+    margin: 0 180px;
+}
+.select1, .select2{
+    width: 174px;
+}
+.btn-dropdown{
+    border-radius: 8px;
+    background: #FFF;
+    color: rgba(19, 19, 24, 0.50);
+    font-family: Mulish;
+    font-size: 16px;
+    font-weight: 400;
+    border: 0;
+    padding-left: 15px;
+    width: 174px;
+}
+.btn-org{
+    display: inline-flex;
+    flex-direction: row-reverse;
+    border-radius: 8px;
+    background: #FF5400;
+    font-family: Mulish;
+    font-size: 16px;
+    font-weight: 700;
+    padding: 15px 30px;
+    color: #FFF;
+    border: 0;
+    width: 174px;
+}
+.banner-title{
+    color: #FFF;
+    font-family: Mulish;
+    font-size: 64px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+    text-align: center;
+    padding-top: 100px;
+}
+.banner-description{
+    max-width: 676px;
+    color: #FFF;
+    font-family: Mulish;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    text-align: center;
+    margin-top: 24px;
+    margin-bottom: 48px;
+    margin-left: auto;
+    margin-right: auto;
+}
+/*Banner container style start here*/
+/*Header section style end here*/
+
+/*Mani section style start here*/
+/*Mani section style end here*/
+
+/*Footer section style start here*/
+/*Footer section style end here*/
