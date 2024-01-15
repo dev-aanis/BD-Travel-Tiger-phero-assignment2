@@ -14,6 +14,8 @@
         display: none;
         
     }
+
+    /*banner part*/
     .banner-container{
         max-width: 100vw;
         width: 100%;
@@ -52,4 +54,14 @@
         width: 250px;
         justify-content: center;
     }
+    /*banner part end*/
+    /*popular part*/
+    .popular-tours{
+        flex-direction: column;
+        margin: 20px;
+    }
+    .popular-image-container img{
+        width: 100%;
+    }
+    /*popular part end*/
 }

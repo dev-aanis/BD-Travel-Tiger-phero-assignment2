@@ -123,8 +123,45 @@ body{
 /*Banner container style start here*/
 /*Header section style end here*/
 
-/*Mani section style start here*/
-/*Mani section style end here*/
+/*Main section style start here*/
+.popular-tours{
+    display: flex;
+    width: 100%;
+    max-width: 1170px;
+    margin: 0 auto 100px auto;
+    gap: 40px;
+}
+.popular-title{
+    color: #131318;
+    font-family: Mulish;
+    font-size: 40px;
+    font-weight: 800;
+    margin-bottom: 24px;
+}
+.popular-text-container p, ul>li{
+    color: #5A5A5D;
+    font-family: Mulish;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px; /* 162.5% */
+    margin-bottom: 20px;
+}
+.read-more{
+    width: 174px;
+    height: 52px;
+    border-radius: 8px;
+    background: #FF5400;
+
+    color: #FFF;
+    text-align: center;
+    font-family: Mulish;
+    font-size: 20px;
+    font-weight: 800;
+    border: 0;
+}
+/*popular tours section style start here*/
+/*popular tours section style end here*/
+/*Main section style end here*/
 
 /*Footer section style start here*/
 /*Footer section style end here*/
