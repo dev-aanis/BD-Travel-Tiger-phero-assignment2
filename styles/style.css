@@ -62,12 +62,15 @@ body{
     justify-content: center;
 }
 .dropdown-container{
-    display: inline-flex;
+    display: flex;
     gap: 24px;
-    background-color: rgba(252, 252, 252, 0.4);
+    background: rgba(252, 252, 252, 0.4);
     padding: 20px;
     border-radius: 8px;
-    margin: 0 180px;
+    justify-content: center;
+    background: rgba(252, 252, 252, 0.4);
+    margin: 0 200px;
+    
 }
 .select1, .select2{
     width: 174px;
