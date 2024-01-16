@@ -267,6 +267,74 @@ body{
     margin-bottom: 20px;
 }
 /*Choose Destination Section style end here*/
+
+/*why choose us section style start here*/
+.why-chose-us-container{
+    width: 100%;
+    max-width: 1170px;
+    margin: 0 auto;
+}
+.why-chose-title{
+    color: #131318;
+    text-align: center;
+    font-family: Mulish;
+    font-size: 40px;
+    font-weight: 800;
+}
+.why-chose-description{
+    color: rgba(19, 19, 24, 0.70);
+    text-align: center;
+    font-family: Mulish;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px; /* 162.5% */
+    max-width: 550px;
+    margin: 24px auto 48px auto;
+}
+.chose-card-container{
+    display: flex;
+    gap: 24px;
+}
+.card-left{
+    width: 573px;
+    height: 284px;
+    border-radius: 16px;
+    border: 1px solid rgba(251, 181, 99, 0.20);
+    background: rgba(251, 181, 99, 0.05);
+    padding: 30px;
+}
+.card-right{
+    width: 573px;
+    height: 284px;
+    border-radius: 16px;
+    border: 1px solid rgba(41, 206, 246, 0.20);
+    background: rgba(41, 206, 246, 0.05);
+    padding: 30px;
+}
+.card-middle{
+    width: 573px;
+    height: 284px;
+    border-radius: 16px;
+    border: 1px solid rgba(233, 68, 68, 0.20);
+    background: rgba(233, 68, 68, 0.05);
+    padding: 30px;
+    margin: 24px auto 100px auto;
+}
+.card-title{
+    color: #131318;
+    font-family: Mulish;
+    font-size: 18px;
+    font-weight: 800;
+}
+.card-description{
+    color: #5A5A5D;
+    font-family: Mulish;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 26px; /* 162.5% */
+}
+/*why choose us section style end here*/
 /*Main section style end here*/
 
 /*Footer section style start here*/

@@ -36,6 +36,7 @@
     .dropdown-container{
         flex-direction: column;
         padding: 10px;
+        gap: 12px;
     }
     .dropdown-container select, input{
         background: #FFF;
@@ -106,5 +107,19 @@
         top: 79%;
         left: 49%;
     }
-    /*destination part*/
+    /*destination part end*/
+
+    /*chose us part*/
+    .why-chose-us-container{
+        width: 100%;
+    }
+    .chose-card-container{
+        flex-direction: column;
+        margin: 0 30px;
+    }
+    .card-middle{
+        margin-left: 30px;
+    }
+    /*chose us part end*/
+
 }
