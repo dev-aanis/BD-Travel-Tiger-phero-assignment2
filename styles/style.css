@@ -335,6 +335,90 @@ body{
     line-height: 26px; /* 162.5% */
 }
 /*why choose us section style end here*/
+
+/*Deasl & Discount section start here*/
+/*Deasl & Discount section end here*/
+
+/*perfect place section style start here*/
+/*perfect place section style end here*/
+
+/*News Letter Section style start here*/
+.news-letter{
+    display: flex;
+    width: 100%;
+    max-width: 1170px;
+    margin: 0 auto 100px auto;
+}
+.text-part{
+    width: 474px;
+    height: 422px;
+}
+.newsletter-title{
+    color: #131318;
+    font-family: Mulish;
+    font-size: 24px;
+    font-weight: 800;
+    margin-bottom: 10px;
+}
+.newletter-description{
+    width: 350px;
+    color: #5A5A5D;
+    font-family: Mulish;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px; /* 162.5% */
+    margin-bottom: 48px;
+}
+.contact input{
+    display: block;
+    margin-bottom: 20px;
+    padding: 16px 20px;
+    color: rgba(19, 19, 24, 0.30);
+    font-family: Mulish;
+    font-size: 16px;
+    font-weight: 400;
+    width: 393px;
+    height: 52px;
+    border-radius: 8px;
+    background: rgba(19, 19, 24, 0.05);
+    border: 0;
+}
+.image-part{
+    width: 672px;
+    height: 422px;
+    border-radius: 16px;
+    background: url(../Images/Rectangle3.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    object-fit: cover;
+    position: relative;
+}
+.text-on-image{
+    position: absolute;
+    width: 280px;
+    height: 120px;
+    transform: rotate(-19.628deg);
+    border-radius: 16px;
+    background: #FF5400;
+    top: 260px;
+    left: 385px;
+}
+.text-on-image p{
+    color: #FFF;
+    text-align: center;
+    font-family: Mulish;
+    font-size: 24px;
+    font-weight: 400;
+    padding-top: 20px;
+}
+.text-on-image h6{
+    color: #FFF;
+    text-align: center;
+    font-family: Mulish;
+    font-size: 32px;
+    font-weight: 800;
+}
+/*News Letter Section style end here*/
 /*Main section style end here*/
 
 /*Footer section style start here*/

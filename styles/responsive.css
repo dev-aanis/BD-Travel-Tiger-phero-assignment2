@@ -122,4 +122,40 @@
     }
     /*chose us part end*/
 
+    /*Deals & Discount part*/
+    /*Deals & Discount part end*/
+
+    /*perfect place part*/
+    /*perfect place part end*/
+
+    /*news letter part*/
+    .news-letter{
+        flex-direction: column;
+        width: 100%;
+        margin: 20px;
+    }
+    .text-part{
+        width: 100%;
+        margin: 0 10px;
+    }
+    .text-part input{
+        width: 100%;
+    }
+    .image-part{
+        width: 100%;
+    }
+    .text-on-image{
+        position: relative;
+        width: 220px;
+        height: 100px;
+        top: 280px;
+        left: 370px;
+    }
+    .text-on-image p{
+        font-size: 15px;
+    }
+    .text-on-image h6{
+        font-size: 21px;
+    }
+    /*news letter part end*/
 }
