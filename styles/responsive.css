@@ -10,9 +10,15 @@
         background-repeat: no-repeat;
         background-position: right;
     }
+    .left-part h4{
+        font-size: 20px;
+    }
+    .left-part img{
+        width: 33px;
+        height: 30px;
+    }
     .right-part{
-        display: none;
-        
+        display: none; 
     }
 
     /*banner part*/
@@ -117,8 +123,15 @@
         flex-direction: column;
         margin: 0 30px;
     }
+    .card-left{
+        width: 100%;
+    }
+    .card-right{
+        width: 100%;
+    }
     .card-middle{
         margin-left: 30px;
+        width: 100%;
     }
     /*chose us part end*/
 
@@ -145,11 +158,16 @@
         width: 100%;
     }
     .text-on-image{
-        position: relative;
+        /* position: relative;
         width: 220px;
         height: 100px;
         top: 280px;
-        left: 370px;
+        left: 370px; */
+        position: relative;
+        width: 170px;
+        height: 80px;
+        top: 320px;
+        left: 155px;
     }
     .text-on-image p{
         font-size: 15px;
@@ -158,4 +176,31 @@
         font-size: 21px;
     }
     /*news letter part end*/
+    /*footer part start*/
+    footer{
+        width: 100%;
+        margin: 20px 20px 0 20px;
+    }
+    .footer-logo-title{
+        padding-top: 30px;
+    }
+    .footer-logo-title img{
+        width: 33px;
+        height: 30px;
+    }
+    .footer-title{
+        font-size: 20px;
+    }
+    .footer-description{
+        width: 300px;
+    }
+    hr{
+        width: 335px;
+        height: 1px;
+        margin: 20px auto;
+    }
+    .copyright{
+        padding-bottom: 30px;
+    }
+    /*footer part end*/
 }
