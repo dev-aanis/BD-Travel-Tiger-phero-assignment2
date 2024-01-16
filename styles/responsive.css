@@ -121,7 +121,7 @@
     }
     .chose-card-container{
         flex-direction: column;
-        margin: 0 30px;
+        margin: 0 0 0 30px;
     }
     .card-left{
         width: 100%;
@@ -132,6 +132,7 @@
     .card-middle{
         margin-left: 30px;
         width: 100%;
+        margin-bottom: 24px;
     }
     /*chose us part end*/
 
