@@ -1,10 +1,11 @@
 @media screen and (max-width: 600px) {
     .nav-container{
         margin: 20px;
+        width: 100vh;
     }
     .left-part{
         justify-content: flex-start;
-        width: 100%;
+        width: 100vh;
         background: url(../Images/hamburg.png);
         background-size: 24px;
         background-repeat: no-repeat;
@@ -23,29 +24,28 @@
 
     /*banner part*/
     .banner-container{
-        max-width: 100vw;
-        width: 100%;
+        width: 100vh;
         margin: 20px 20px;
         background-size: cover;
         background-repeat: no-repeat;
         background-position: center;
     }
     .banner-title{
-        font-size: 40px;
+        font-size: 48px;
         padding-top: 8px;
     }
     .banner-description{
         width: 500px;
-        font-size: 12px;
+        font-size: 16px;
         margin-top: 5px;
         margin-bottom: 10px;
-        line-height: 18px;
+        line-height: 24px;
     }
     .dropdown-container{
         flex-direction: column;
-        padding: 10px;
+        padding: 20px;
         gap: 12px;
-        margin: 0 20px;
+        margin: 0 80px;
         align-items: center;
     }
     .dropdown-container select, input{
@@ -66,10 +66,12 @@
         justify-content: center;
     }
     /*banner part end*/
+
     /*popular part*/
     .popular-tours{
         flex-direction: column;
         margin: 20px;
+        width: 100vh;
     }
     .popular-image-container img{
         width: 100%;
@@ -79,6 +81,7 @@
     /*destination part*/
     .your-destination{
         margin: 0 20px;
+        width: 100vh;
     }
     .destination-description{
         width: 350px;
@@ -121,7 +124,13 @@
 
     /*chose us part*/
     .why-chose-us-container{
-        width: 100%;
+        width: 100vh;
+    }
+    .why-chose-title{
+        margin: 40px 0 0 25px;
+    }
+    .why-chose-description{
+        margin: 10px 10px 20px 25px;
     }
     .chose-card-container{
         flex-direction: column;
@@ -129,20 +138,29 @@
     }
     .card-left{
         width: 100%;
+        width: 100vh;
     }
     .card-right{
         width: 100%;
+        width: 100vh;
     }
     .card-middle{
         margin-left: 30px;
         width: 100%;
         margin-bottom: 24px;
     }
+    .card-description{
+        padding-bottom: 20px;
+        line-height: 18px;
+    }
     /*chose us part end*/
 
-    /*Extra part from me*/
+    /*Extra part from me start*/
     .extra-section{
-        width: 100%;
+        width: 100vh;
+    }
+    .extra-heading{
+        font-size: 36px
     }
     .image-card-container{
         grid-template-columns: 1fr;
@@ -162,8 +180,8 @@
     /*news letter part*/
     .news-letter{
         flex-direction: column;
-        width: 100%;
-        margin: 20px;
+        width: 100vh;
+        margin: 20px 20px 20px 10px;
     }
     .text-part{
         width: 100%;
@@ -174,18 +192,15 @@
     }
     .image-part{
         width: 100%;
+        margin: 20px 10px 20px 10px;
     }
     .text-on-image{
-        /* position: relative;
+        position: relative;
         width: 220px;
         height: 100px;
-        top: 280px;
-        left: 370px; */
-        position: relative;
-        width: 170px;
-        height: 80px;
-        top: 320px;
-        left: 155px;
+        top: 290px;
+        left: 250px;
+        
     }
     .text-on-image p{
         font-size: 15px;
@@ -196,7 +211,7 @@
     /*news letter part end*/
     /*footer part start*/
     footer{
-        width: 100%;
+        width: 100vh;
         margin: 20px 20px 0 20px;
     }
     .footer-logo-title{
