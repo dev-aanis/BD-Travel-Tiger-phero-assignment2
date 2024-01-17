@@ -46,7 +46,7 @@
         flex-direction: column;
         padding: 20px;
         gap: 12px;
-        margin: 0 300px;
+        margin: 0 80px;
         align-items: center;
     }
     .dropdown-container select, input{
@@ -200,7 +200,7 @@
         width: 220px;
         height: 100px;
         top: 69%;
-        left: 77%;
+        left: 75%;
     }
     .text-on-image p{
         font-size: 15px;
