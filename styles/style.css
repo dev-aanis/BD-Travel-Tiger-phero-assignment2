@@ -295,10 +295,10 @@ body{
 }
 .chose-card-container{
     display: flex;
+    margin: 0 auto;
     gap: 24px;
 }
 .card-left{
-    width: 50%;
     max-width: 573px;
     height: 284px;
     border-radius: 16px;
@@ -515,7 +515,7 @@ footer{
     display: flex;
     align-items: center;
     justify-content: center;
-    padding-top: 100px;
+    padding-top: 60px;
 }
 .footer-title{
     color: #131318;
@@ -545,7 +545,7 @@ footer{
 hr{
     width: 800px; 
     height: 1px; 
-    margin: 50px auto;
+    margin: 30px auto;
     background: rgba(19, 19, 24, 0.10);
 }
 .copyright{
@@ -554,6 +554,6 @@ hr{
     font-size: 16px;
     font-weight: 300;
     text-align: center;
-    padding-bottom: 100px;
+    padding-bottom: 60px;
 }
 /*Footer section style end here*/
